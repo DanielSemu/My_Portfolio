@@ -2,7 +2,7 @@
 
  import React from 'react'
  
- import { FaHome, FaMailBulk, FaPhone } from "react-icons/fa"
+ import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from "react-icons/fa"
 
  const Footer = () => {
    return (
@@ -24,7 +24,17 @@
             </div>
         </div>
         <div className="right">
-            
+            <h4>About the Company</h4>
+            <p>
+                This is me Daniel Semu. CEO & Founder of 
+                Mejeng. I Enjoy discussing new projects and design 
+                challenges
+            </p>
+            <div className="social">
+            <FaFacebook size={30} style={{color:"#fff",margin:"1rem"}}/>
+            <FaTwitter size={30} style={{color:"#fff",margin:"1rem"}}/>
+            <FaLinkedin size={30} style={{color:"#fff",margin:"1rem"}}/>
+            </div>
         </div>
        </div>
      </div>

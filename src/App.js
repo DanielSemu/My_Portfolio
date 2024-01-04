@@ -3,7 +3,7 @@ import About from "./Routes/About";
 import Contact from "./Routes/Contact";
 import Home from "./Routes/Home";
 import Project from "./Routes/Project";
-// import Navbar from "./Components/Navbar";
+
 
 
 
